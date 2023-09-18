@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      p {
+        margin-left: 50px;
+      }
+      .container {
+        color: cadetblue; /*rgb(9, 150, 114); */
+        background-color: white;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",sans-serif;
+        font-weight: 200;
+        position: relative;
+        left: 100px;
+        top: 50px;
+        border-radius: 10px;
+        width: 400px;
+        position: absolute;
+        border: #4caf50 2px solid;
+      }
+      button {
+        position: absolute;
+        background-color: rgb(124, 238, 124);
+        color: #086b05;
+        margin-left: 50px;
+        font-family: "Times New Roman", Times, serif;
+        width: 340px;
+        height: 30px;
+        display: inline-block;
+        padding: 2px;
+        border-collapse: collapse;
+      }
+
+      label {
+        margin-left: 50px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        color: cadetblue;
+      }
+      h2 {
+        position: absolute;
+        left: 10%;
+        top: -60px;
+        width: 300px;
+        background-color: rgb(124, 238, 124);
+        color: #086b05;
+        font-weight: 100;
+        font-family: "Times New Roman", Times, serif;
+         font-size: 18px;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .txt {
+        margin-left: 50px;
+        height: 20px;
+        width: 100px;
+        display: inline-block;
+      }
+      input {
+        padding: 7px;
+        width: 80%;
+        margin-top: 7px;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>DISCOUNT CALCULATOR</h2>
+      <p>Enter the bill amount and discount in percentage</p>
+      <label> Bill Amount</label><br />
+      <input type="text" width="100px" /><br />
+      <label>Discount Percentage</label><br />
+      <input type="text" width="100px" /><br /><br />
+      <!-- <input type ="button" id="submitbtn" type="text" value="Calculate"><br><br> -->
+
+      <button><strong>Calculator</strong></button><br />
+      <p>Enter the bill amount and discount in percentage</p>
+      <p></p>
+    </div>
+  </body>
+</html>
