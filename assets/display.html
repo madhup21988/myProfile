@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+   <style>
+     p{
+        border: 2px solid;
+        display: block;
+     }
+     #div{
+
+        border: 3px solid;
+        /*display: inline;     /* if incline cant set width and height*/
+        display: inline-block;   /* if incline-block we can set width and height*/
+        width: 300px;
+        height: 100px;
+     }
+     strong{
+        border: 3px solid red;
+     
+     }
+    #heading{
+        border: 3px solid;
+        display:none;
+    }
+   </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, unde?</p>
+    <div id="div">
+        <strong>Lorem ipsum dolor sit.</strong>
+    </div>
+    <span>This is inline element</span>
+    <h2 id="heading">this is heading 2</h2>
+</body>
+</html>
